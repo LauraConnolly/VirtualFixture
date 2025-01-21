@@ -1,7 +1,7 @@
 # VirtualFixture
 
 ## Dependencies:
-This module relies on the BreachWarning module, which is a part of SlicerIGT. For instructions on compiling this 
+This module relies on the BreachWarning module, which is a part of SlicerIGT. For more details on compiling this 
 module from source, please see the instructions on this page: https://slicer-ros2.readthedocs.io/en/latest/pages/limitations.html
 
 ## Instructions:
