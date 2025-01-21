@@ -40,7 +40,7 @@ Drag and drop the scene in the module "Resources" file called "SphereConstraint.
 
 Navigate to the BreachWarning module. Within this module:
 
-1. Set the "TumorModel" as model to watch
+1. Set the "SphereModel" as model to watch
 2. Set the transform "ros2:tf2lookup:tipToStylus" as the Tool tip transform
 3. Check the "Display line to closet point" box (IMPORTANT - the VF won't work if this isn't visible)
 
