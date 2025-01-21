@@ -289,6 +289,8 @@ class VirtualFixtureLogic(ScriptedLoadableModuleLogic):
 
     def breachDetection(self, caller, event):
 
+        self.breachWarningNode = slicer.mrmlScene.GetFirstNodeByName("BreachWarning")
+        
         if (self.breachWarningNode.IsToolTipInsideModel()):
             pose = vtk.vtkMatrix4x4()
             self.sub.GetLastMessage(pose)
